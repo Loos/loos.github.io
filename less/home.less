@@ -1,0 +1,30 @@
+@import "bootstrap_index.less";
+@import "variables.less";
+@import "nav.less";
+
+.home {
+  .nav;
+  .content {
+    background: @offwhite;
+    color: @darkgrey;
+    font-size: 20px;
+
+    .content-container {
+      .container;
+
+      .content-row {
+        .make-row();
+        margin-top: 30px;
+
+        .content-column {
+          .make-sm-column(8);
+          .make-sm-column-offset(2);
+        }
+        .home-page {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
