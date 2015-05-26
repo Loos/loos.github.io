@@ -6,12 +6,23 @@
     color: @mauve;
     .make-row(@gutter: 0px);
 
-    .logo-column {
+    .title-column {
+      .make-sm-column(9);
       .make-xs-column(12);
       margin-top: 50px;
       h1 {
         font-size: 64px;
         font-weight: bold;
+      }
+    }
+    .self-portrait {
+      display: none;
+      @media (min-width: @screen-sm-min) {
+        display: block;
+        .make-sm-column(3);
+        img {
+          height: 150px;
+        }
       }
     }
   }
