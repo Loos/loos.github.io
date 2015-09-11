@@ -20,9 +20,46 @@
           .make-sm-column(8);
           .make-sm-column-offset(2);
         }
-        .home-page {
-          height: 100%;
-        }
+      }
+    }
+  }
+
+  h1 {
+    display: inline;
+  }
+
+  @keyframes jitter {
+    0% {transform: translate(0, 3px);}
+    1% {transform: translate(0, 0);}
+    2% {transform: translate(0, 3px);}
+    3% {transform: translate(0, 0);}
+    4% {transform: translate(0, 3px);}
+    5% {transform: translate(0, 0);}
+    6% {transform: translate(-2px, 0);}
+    7% {transform: translate(0, 0);}
+    8% {transform: translate(-2px, 0);}
+    9% {transform: translate(0, 0);}
+  }
+
+  .error-code {
+    animation-name: jitter;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .image-row {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    h2 {
+      color: white;
+      font-weight: bold;
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      a {
+        color: @pink;
       }
     }
   }
