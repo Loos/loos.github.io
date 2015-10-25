@@ -1,23 +1,18 @@
-head
-  meta(http-equiv="Content-Type", content="text/html;charset=utf-8")
-  meta(name="viewport", content="width=device-width, initial-scale=1")
-  link(rel="stylesheet", type="text/css", href="//fonts.googleapis.com/css?family=Open+Sans")
-  link(type="text/css", rel="stylesheet", href="css/styles.css")
-  script(type="text/javascript", src="vendor/jquery/jquery.js")
-  script(type="text/javascript", src="vendor/bootstrap/js/collapse.js")
-  script(type="text/javascript", src="js/script.js")
-body
-  .home
-    .header-row
-      .title-column
-        h1 Hi!
-      .self-portrait
-        img(src="./images/close-cropped-face.JPG")
-    .content
-      .content-container
-        .content-row
-          .content-column
-            h1.error-code 418
-            h1 : Bad Internet Crash
-            p page you thought you were looking for is wiped
-            p everything brocken; please you restart computer now ;(
+extends ./layouts/default.jade
+block content
+  .content
+    .content-container
+      .content-row
+        .content-column
+          h1
+            a(href="http://www.therecyclery.tumblr.com") The Recyclery
+          p collective member, treasurer, host mechanic, and designer
+
+          h1
+            a(href="http://www.louisknapp.com/puppy-wellness") Puppy Wellness Center
+          p chief strategist and designer
+
+          h1
+            a(href="http://birdmonitors.net") CBCM
+          p certified bird rescuer
+

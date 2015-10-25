@@ -15,6 +15,7 @@
         font-weight: bold;
       }
     }
+
     .self-portrait {
       display: none;
       @media (min-width: @screen-sm-min) {
@@ -25,5 +26,25 @@
         }
       }
     }
+
   }
+
+  .nav-row {
+    .make-row(@gutter: 0px);
+    background-color: @mauve;
+    ul {
+      padding-top: 10px;
+      padding-left: 10px;
+      list-style-type: none;
+      li {
+        padding-right: 15px;
+        display: inline-block;
+        a {
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
 }
