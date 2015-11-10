@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/lknapp
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.louisknapp.com
+  * I am lknapp (https://keybase.io/lknapp) on keybase.
+  * I have a public key with fingerprint 7E36 F432 B530 0707 6ABF  0E1B 2116 4F1B 8472 CFF8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101299c3d44a78594632fe37ee2f8f5466e3a8d4bad247d020832d545fe7de8a62b0a",
+            "fingerprint": "7e36f432b53007076abf0e1b21164f1b8472cff8",
+            "host": "keybase.io",
+            "key_id": "21164f1b8472cff8",
+            "kid": "0101299c3d44a78594632fe37ee2f8f5466e3a8d4bad247d020832d545fe7de8a62b0a",
+            "uid": "b717eae8cc80c976343e1011fef79819",
+            "username": "lknapp"
+        },
+        "service": {
+            "hostname": "www.louisknapp.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447165848,
+    "expire_in": 157680000,
+    "prev": "cc9668307d6cd2a6ff47a87103bf9dd6dd5fb147961fefae597463fa6bfefdfa",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJdSBRRFF61rCQjqmUJyoepp1psfu7ce2cLpJe1p5LA6qFtmZl7r06u
+M+PMulpmBVGJVEpJ9mMFSX8W/WAkSA9uBEV/aKFPlRUlihhURESR3Vnqrcfuy+Wc
+833f+c7h3C8uCBXlnd248vPHFUv78x5nT9WHNq2dPtEkGA7ZIcSahBqa+2iKUD+d
+rLGIEBNESZRkTTMVAoCOsKoBqMiMKohSmWGmAgipomMCDJ3IABFRFrEiExWojCJC
+sQ5lQ9SFqMAsu4p6rmfZaS6LqAIZUGRDVUQRiQjqBhOpZMiSBAGTDAyQbDKGObHa
+8QMGN2foPi21HJ7jQTJn7x/4/+y7PidnIAlRnWLTxKKpIagAhfIOEqMMaVjSAqBP
+PVuvpRydqrF11xWaowLPZSyTBmsN5vhTb2hoKE059Zafw5WaTi3nu56TdkwnxevV
+6bQbC+jpHW4OT43kH6WkYdmEr5ITMtTzLccWYhJHmmkrkJYAQBJUMcBRgTa6lkeT
+VoBQEcQif0EbmuGSpqlBiBUREWgSWYeMAaRjJImKwTRCICEqMySANBjMqFNVQ3yD
+TIcGDwkLNuPTOtsRYiq3qVdxSd+qsvV0vUeF5nsDW2eE8opChTPzgxMLFc2Z//fw
+uqZnTRuDl9tW2N7IwMTYzrXfFjSPLiv4ZD5rT5xaOq+693P4UGXrgFDwdf3Pq3f7
++t71tpd7P0jP5LW20a6THXMXddNzlWXDv/IbZ58u7DlWXH4r3rLpffxGecXuw1cv
+zrt0fsuSVWUTDQsjw8kNww+PFuR9mNy3Ott5gvR0bDveXYePXjjY1jFYN3ImoS2X
+F35syX9+wAWpcGNp5S7JH9/vFnurpvperLtiPJG/bI52Nq1/kyi5+HKqIjIKHh0b
+a89GEuHdd/b87O/uio9en3o1dmvNrIS3NyJFllXcjg7NPpn9NJR5Gyvb3vJ96P7q
+8cI47hwZv/l6+bpFofY3D562blgcLjnyGyiTRhQ=
+=0rG5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lknapp
+
+==================================================================
+
