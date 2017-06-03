@@ -1,11 +1,12 @@
 body {
   font-family: 'Open Sans';
-  background: #FFC6FF;
+  background: #454144;
+  color: #FFC6FF;
 }
 h1 {
   font-family: "Permanent Marker";
   padding-top: 15%;
-  color: #454144;
+  color: #FFC6FF;
   text-align: center;
   font-size: 5em;
 }
@@ -13,6 +14,6 @@ p {
   padding: 0 25%;
 }
 a {
-  color: #5C004B;
+  color: #B0DAEF;
   text-decoration: none;
 }
