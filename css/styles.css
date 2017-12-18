@@ -1,9 +1,12 @@
 body {
   font-family: 'Open Sans';
   color: #FFC6FF;
+  margin: 0;
 }
 .container {
   position: fixed;
+  margin: 0;
+  width: 100%;
 }
 h1 {
   font-family: "Permanent Marker";
@@ -18,8 +21,4 @@ p {
 a {
   color: #B0DAEF;
   text-decoration: none;
-}
-canvas {
-  top: 0;
-  left: 0;
 }
